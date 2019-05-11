@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="model" />
+  <param name="robot_description" textfile="$(find ur_description)/urdf/ur5_robot.urdf" />
+  <param name="use_gui" value="true"/>
+  <node name=robot_sim" pkg="robot_sim" type="robot_sim_bringup" />
+  <node name="mover" pkg="robot_mover" type="mover" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ur_description)/urdf.rviz" required="true" />
+</launch>
