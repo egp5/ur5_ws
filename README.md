@@ -17,7 +17,8 @@ Play around with the sliders and toggle the RobotModel in Rviz to understand the
 
 ## Start the forward kinematics simulation 
 Convert joint positions into end effector position
-
+$ `cd ur5_ws-master/src/forward-kinematics/scripts`
+$ `chmod +x fwk.py`
 $ `roslaunch forward_kinematics fwk.launch`
 
-Toggle the Robot Model in RVIZ to understand the Coordinate frames
+Toggle the RobotModel in RVIZ to understand the Coordinate frames
