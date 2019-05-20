@@ -26,4 +26,7 @@ $ `chmod +x fwk.py`
 
 $ `roslaunch forward_kinematics fwk.launch`
 
+![fwk](https://user-images.githubusercontent.com/37616724/57997864-885a4a80-7aec-11e9-8f12-cf11915331ae.gif)
+
+
 Toggle the RobotModel in RVIZ to understand the Coordinate frames
