@@ -15,6 +15,8 @@ $ `roslaunch ur_description demo.launch`
 
 Play around with the sliders and toggle the RobotModel in Rviz to understand the co-ordinate frames
 
+![demo_FK_cropped](https://user-images.githubusercontent.com/37616724/57997667-8c399d00-7aeb-11e9-84f3-3692596d6cf3.png)
+
 ## Start the forward kinematics simulation 
 Convert joint positions into end effector position
 $ `cd ur5_ws-master/src/forward-kinematics/scripts`
